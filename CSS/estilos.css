@@ -38,7 +38,7 @@ body{
     box-shadow: 5px 8px 11px #000000;;
 }
 .row{
-    --bs-gutter-x:1;
+    --bs-gutter-x:0;
 }
 .text-shadow{
     text-shadow: 3px 6px 9px #000000;

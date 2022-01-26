@@ -1,0 +1,49 @@
+body{
+    background-color: #eeeeee;
+    color: #606060;
+    font-family: Perpetua;
+}
+.bg-header{
+    background-image: url(../IMG/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+@media(max-width:1000px){
+    .bg-header{
+        background-image: url(../IMG/header.jpg);
+        background-position:center right ;
+        background-size: cover;
+        height: 100vh;
+    }
+
+}
+.bg-servicios{
+    background-image: url(../IMG/bg-servicios.png);
+    background-position: center center;
+    /* height: 100vh; */
+}
+.bg-contacto{
+    background-image: url(../IMG/bg-contacto.png);
+    background-position: center center;
+    background-size: cover;
+}
+.bg-footer{
+    background-image: url(../IMG/bg-footer.png);
+    background-position: center center;
+    /* background-size: cover;  */
+}
+.bg-col-contacto{
+    background-color: rgba(0, 0, 0, 0.479);
+    box-shadow: 5px 8px 11px #000000;;
+}
+.row{
+    --bs-gutter-x:1;
+}
+.text-shadow{
+    text-shadow: 3px 6px 9px #000000;
+}
+.item-shadow {
+    -webkit-filter: drop-shadow(1px 1px 5px #ffffff );
+    filter: drop-shadow(1px 1px 5px #ffffff);
+  }
